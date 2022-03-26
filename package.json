@@ -4,6 +4,7 @@
     },
     "dependencies": {
         "@airtable/blocks": "1.8.0",
+        "near-api-js": "^0.44.2",
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
     },
