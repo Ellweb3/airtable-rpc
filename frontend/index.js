@@ -33,9 +33,10 @@ if (walletConnection.getAccountId()) {
     balance: (await walletConnection.account().state()).amount,
   };
 }
+
     const account_id = nearConfig.contractName;
     const contract = await new nearAPI.Contract(
-      account,
+      account, // undefined variable - maybe walletConnection.account() ?
       nearConfig.contractName,
       {
         viewMethods: ["getAllNFTsByOwner"],
