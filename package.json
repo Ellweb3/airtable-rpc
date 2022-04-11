@@ -4,11 +4,15 @@
     },
     "dependencies": {
         "@airtable/blocks": "1.8.0",
+        "axios": "^0.26.1",
+        "big.js": "^6.1.1",
+        "buffer": "^6.0.3",
         "near-api-js": "^0.44.2",
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
     },
     "devDependencies": {
+        "@airtable/blocks-webpack-bundler": "^0.0.2",
         "eslint": "^6.8.0",
         "eslint-plugin-react": "^7.18.3",
         "eslint-plugin-react-hooks": "^2.5.0"

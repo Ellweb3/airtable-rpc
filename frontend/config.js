@@ -1,4 +1,4 @@
-const CONTRACT_NAME = 'one.nfts.testnet';
+const CONTRACT_NAME = "owner-list.w-adalo.testnet";
 
 function getConfig(env) {
   switch (env) {
